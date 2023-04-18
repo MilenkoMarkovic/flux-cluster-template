@@ -1,0 +1,14 @@
+kind: ENC[AES256_GCM,data:x1R/T7P/,iv:UoprZcthUOXv6jVNYPl1ufb5V6YDkvtBaj8/SCnf5Mc=,tag:PbDmbPj9lj1YP+H+9zWr2Q==,type:str]
+ansible_user: ENC[AES256_GCM,data:VcSAAf46iRmR/rlMbjQ4,iv:ok2syom3GvpRxsAYZB2L/3qn9Amrz/5QfSQjYM/kK3w=,tag:kWgQDP8iLWDb3SvxgpF+3Q==,type:str]
+ansible_become_pass: ENC[AES256_GCM,data:dSoBDkUsNabs7p4=,iv:13QejFXSwSahM2U4kjspNtYORPq7Q1M8k3LK3ibP3P8=,tag:N0k3xiqtzQ5Z0lu8F1svqQ==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2023-04-18T11:14:48Z"
+    mac: ENC[AES256_GCM,data:MecASorq5nnhyU5ZOBzl/ZGjvCMaLDRN7t85W8pCwCFUGzj5m1IILLkpSKxvSVQxC1C1PdwAKrZ8PNaXwCa+p7KNtFrxNtqoXKYIQ+71uCqQ7Q2jgDIYsZd9XZA5ZspWbReCzN57fN3ZX2KRW5yw2v+JozAUQCuDTO81fvQWyJc=,iv:WNR2t3WScu01aIy6n50WKlCEW/cxsSponoEhtLHH7ng=,tag:2HNED48ckIxiQji/zbTQEw==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
